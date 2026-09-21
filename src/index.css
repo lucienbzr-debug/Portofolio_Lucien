@@ -1,0 +1,71 @@
+@import "tailwindcss";
+
+@theme {
+  /* Warm ivory paper — the site's base surface */
+  --color-ivory: #f7f4ee;
+  --color-ivory-dim: #efe9dd;
+  --color-paper-line: #e2d9c4;
+
+  /* Ink — near-black warm brown, primary text */
+  --color-ink: #201b14;
+  --color-ink-soft: #55503f;
+  --color-ink-faint: #6e6853;
+
+  /* Deep charcoal — reserved for the footer / final CTA */
+  --color-charcoal: #171310;
+  --color-charcoal-soft: #262019;
+  --color-charcoal-line: #3a3226;
+
+  /* Terre / ocre — the signature accent, evokes soil & terrain */
+  --color-clay: #a85526;
+  --color-clay-dark: #8a4620;
+  --color-clay-light: #d9884d;
+  --color-clay-tint: #f1e2d1;
+
+  /* Moss — the "data / impact" green */
+  --color-moss: #3d5940;
+  --color-moss-dark: #2d4330;
+  --color-moss-light: #7a9c78;
+  --color-moss-tint: #e3e9df;
+
+  --font-serif: "Fraunces", "Iowan Old Style", ui-serif, Georgia, serif;
+  --font-sans: "IBM Plex Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SFMono-Regular", monospace;
+
+  --animate-fade-up: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+@layer base {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-ivory);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: var(--color-clay);
+    color: var(--color-ivory);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-clay);
+    outline-offset: 3px;
+  }
+}
