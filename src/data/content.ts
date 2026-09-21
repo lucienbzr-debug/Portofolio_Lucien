@@ -107,6 +107,7 @@ export const projects: Project[] = [
     description:
       "Empilement et déduplication de 3 extractions terrain sur identifiant unique, pipeline STATA reproductible (.do), tableau de bord interactif et rapport de direction avec indicateurs d'équité genre/territoire/partenaire et d'effet de levier pour l'argumentaire bailleurs.",
     result: "261 765 ménages recoupés à 99,9996 % du chiffre officiel de clôture",
+    liveUrl: "https://lucienbzr-debug.github.io/aid-i-menages-atteints/",
     repoUrl: "https://github.com/lucienbzr-debug/aid-i-menages-atteints",
   },
   {
