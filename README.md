@@ -44,7 +44,7 @@ src/
     About.tsx            Section "À propos"
     Stats.tsx            Bandeau de statistiques (fond sombre)
     Skills.tsx           4 blocs de compétences
-    Projects.tsx         6 études de cas projets (cartes)
+    Projects.tsx         7 études de cas projets (cartes)
     Timeline.tsx         Parcours professionnel + formation
     Contact.tsx          Section de conversion finale (tel:/mailto:)
     Footer.tsx           Pied de page

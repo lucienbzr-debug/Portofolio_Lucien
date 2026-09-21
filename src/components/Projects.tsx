@@ -9,6 +9,7 @@ const tagColor: Record<string, string> = {
   R: "border-clay/30 bg-clay-tint text-clay-dark",
   Excel: "border-moss/30 bg-moss-tint text-moss-dark",
   "Power BI": "border-clay/30 bg-clay-tint text-clay-dark",
+  STATA: "border-moss/30 bg-moss-tint text-moss-dark",
 };
 
 export default function Projects() {
@@ -21,7 +22,7 @@ export default function Projects() {
             Des preuves, pas une liste de compétences.
           </h2>
           <p className="mt-4 max-w-2xl text-lg text-ink-soft">
-            Six études de cas, chacune menée de bout en bout : données brutes, nettoyage, analyse
+            Sept études de cas, chacune menée de bout en bout : données brutes, nettoyage, analyse
             et livrable exploitable par une direction.
           </p>
         </Reveal>

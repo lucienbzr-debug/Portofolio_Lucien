@@ -99,6 +99,17 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "aid-i",
+    tag: "STATA",
+    title: "Ménages atteints — AID-I (Sud-Kivu)",
+    context: "Consolidation des données de suivi du projet AID-I (Feed the Future / USAID), composante Rikolto au Sud-Kivu, RDC.",
+    tools: ["STATA", "Python", "Pandas"],
+    description:
+      "Empilement et déduplication de 3 extractions terrain sur identifiant unique, pipeline STATA reproductible (.do), tableau de bord interactif et rapport de direction avec indicateurs d'équité genre/territoire/partenaire et d'effet de levier pour l'argumentaire bailleurs.",
+    result: "261 765 ménages recoupés à 99,9996 % du chiffre officiel de clôture",
+    repoUrl: "https://github.com/lucienbzr-debug/aid-i-menages-atteints",
+  },
+  {
     id: "datalendo",
     tag: "SQL",
     title: "Analyse RH — DataLendo",
