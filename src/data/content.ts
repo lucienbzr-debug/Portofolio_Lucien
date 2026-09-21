@@ -30,7 +30,7 @@ export const aboutParagraphs = [
 
 export const heroStats = [
   { value: "10+", label: "ans d'expérience S&E" },
-  { value: "36 700+", label: "ménages couverts" },
+  { value: "298 465+", label: "ménages couverts" },
   { value: "4", label: "pays d'intervention" },
 ];
 
@@ -44,7 +44,7 @@ export const partners = [
 
 export const stats = [
   { value: "10+", unit: "ans", label: "d'expérience en Suivi-Évaluation" },
-  { value: "36 700+", unit: "", label: "ménages couverts par les systèmes S&E conçus" },
+  { value: "298 465+", unit: "", label: "ménages couverts par les systèmes S&E conçus" },
   { value: "6+", unit: "", label: "systèmes de S&E harmonisés, multi-bailleurs" },
   { value: "4", unit: "pays", label: "d'intervention (RDC, Burundi, Tanzanie)" },
   { value: "300+", unit: "", label: "agents et volontaires formés" },
