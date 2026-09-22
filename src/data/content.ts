@@ -119,6 +119,7 @@ export const projects: Project[] = [
     description:
       "15 requêtes business sur le turnover, la performance et les salaires, avec fonctions de fenêtrage (NTILE, RANK) et segmentation par tertiles de performance.",
     result: "15 requêtes business livrées sur 1 500 employés",
+    liveUrl: "https://lucienbzr-debug.github.io/DataLendo-RH-SQL/",
     repoUrl: "https://github.com/lucienbzr-debug/DataLendo-RH-SQL",
   },
   {
@@ -154,6 +155,7 @@ export const projects: Project[] = [
     description:
       "Nettoyage, modélisation, analyse descriptive, client, opérationnelle et avancée — une chaîne d'analyse complète livrée sous forme de dashboard de direction.",
     result: "7 phases d'analyse jusqu'au dashboard de direction",
+    liveUrl: "https://lucienbzr-debug.github.io/CongoTopFashion-Excel/",
     repoUrl: "https://github.com/lucienbzr-debug/CongoTopFashion-Excel",
   },
   {
