@@ -22,7 +22,7 @@ export default function Projects() {
             Des preuves, pas une liste de compétences.
           </h2>
           <p className="mt-4 max-w-2xl text-lg text-ink-soft">
-            Sept études de cas, chacune menée de bout en bout : données brutes, nettoyage, analyse
+            Huit études de cas, chacune menée de bout en bout : données brutes, nettoyage, analyse
             et livrable exploitable par une direction.
           </p>
         </Reveal>

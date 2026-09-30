@@ -99,6 +99,18 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    id: "rikolto-cafe-cacao",
+    tag: "Power BI",
+    title: "Café & Cacao — Rikolto RDC (2019-2025)",
+    context: "Diagnostic de la base café consolidée (42 433 lignes, 4 coopératives) et de l'enquête revenu vital cacao (88 ménages) pour la direction de Rikolto RDC.",
+    tools: ["Power BI", "DAX", "Python", "R Shiny", "Excel"],
+    description:
+      "Registre de 23 contrôles qualité pour le PV de validation, écart au revenu vital Anker ajusté à la taille des ménages, dashboards Power BI, Shiny, Excel et HTML, rapport de direction et deck générés par script. Données pseudonymisées avant publication.",
+    result: "40 % des ménages cacao au revenu vital ajusté, contre 59 % au seuil de référence",
+    liveUrl: "https://lucienbzr-debug.github.io/rikolto-cafe-cacao-2019-2025/",
+    repoUrl: "https://github.com/lucienbzr-debug/rikolto-cafe-cacao-2019-2025",
+  },
+  {
     id: "aid-i",
     tag: "STATA",
     title: "Ménages atteints — AID-I (Sud-Kivu)",
