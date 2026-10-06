@@ -26,16 +26,17 @@ export default function Hero() {
           </p>
 
           <h1 className="font-serif text-4xl font-semibold leading-[1.08] tracking-tight text-ink sm:text-5xl lg:text-[3.4rem]">
-            10 ans à prouver l'impact des programmes.
+            15 ans de terrain, dont 10 à prouver l'impact des programmes.
             <br />
             <span className="text-clay">Aujourd'hui, je le mesure avec la donnée.</span>
           </h1>
 
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink-soft">
-            Spécialiste Suivi, Évaluation &amp; Apprentissage (SEA), je conçois des systèmes qui
-            transforment le terrain en décisions — pour des bailleurs comme la Banque mondiale,
-            l'USAID ou l'Union européenne. Je complète aujourd'hui ce socle par des compétences
-            SQL, Python, R et Power BI pour des rôles hybrides S&amp;E-Data, à distance.
+            Spécialiste Suivi, Évaluation &amp; Apprentissage (SEA) et gestion de projets, je conçois
+            des systèmes qui transforment le terrain en décisions — en RDC, au Burundi, au Rwanda et
+            en Tanzanie, pour des bailleurs comme la Banque mondiale, l'USAID ou l'Union européenne.
+            Je complète aujourd'hui ce socle par des compétences SQL, Python, R et Power BI pour des
+            rôles hybrides S&amp;E-Data, à distance.
           </p>
 
           <div className="mt-9 flex flex-wrap items-center gap-4">

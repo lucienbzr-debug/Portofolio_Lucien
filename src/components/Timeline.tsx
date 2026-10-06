@@ -11,6 +11,10 @@ export default function Timeline() {
           <h2 className="mt-3 font-serif text-3xl font-semibold leading-tight text-ink sm:text-4xl">
             15 ans de terrain, une trajectoire cohérente.
           </h2>
+          <p className="mt-4 max-w-2xl text-lg text-ink-soft">
+            De l'agronomie et des sauvegardes environnementales sur le terrain (depuis 2011) au
+            pilotage de systèmes SEA multi-pays, puis à l'analyse de données.
+          </p>
         </Reveal>
 
         <ol className="mt-14 space-y-0">
@@ -35,7 +39,18 @@ export default function Timeline() {
                 <h3 className="mt-1.5 font-serif text-lg font-semibold text-ink sm:text-xl">
                   {item.title}
                 </h3>
-                <p className="mt-1 text-sm text-ink-soft">{item.org}</p>
+                <p className="mt-1 text-sm text-ink-soft">
+                  {item.org}
+                  {item.place && <span className="text-ink-faint"> · {item.place}</span>}
+                </p>
+                {item.summary && (
+                  <p className="mt-2.5 max-w-2xl text-[0.95rem] leading-relaxed text-ink-soft">{item.summary}</p>
+                )}
+                {item.highlight && (
+                  <p className="mt-3 inline-flex rounded-lg border border-moss/20 bg-moss-tint px-3 py-1.5 font-mono text-xs font-semibold text-moss-dark">
+                    {item.highlight}
+                  </p>
+                )}
               </Reveal>
             );
           })}

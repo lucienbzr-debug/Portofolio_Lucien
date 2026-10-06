@@ -8,11 +8,11 @@ export default function Skills() {
         <Reveal>
           <p className="font-mono text-xs uppercase tracking-[0.18em] text-clay">Compétences</p>
           <h2 className="mt-3 max-w-2xl font-serif text-3xl font-semibold leading-tight text-ink sm:text-4xl">
-            Un profil hybride : rigueur méthodologique et outils data.
+            Un profil hybride : terrain, rigueur méthodologique et outils data.
           </h2>
         </Reveal>
 
-        <div className="mt-14 grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-paper-line bg-paper-line sm:grid-cols-2">
+        <div className="mt-14 grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-paper-line bg-paper-line sm:grid-cols-2 lg:grid-cols-3">
           {skillBlocks.map((block, index) => (
             <Reveal key={block.title} delay={index * 0.08} className="bg-ivory p-8 sm:p-10">
               <span className="font-mono text-sm text-ink-faint">{String(index + 1).padStart(2, "0")}</span>
